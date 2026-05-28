@@ -35,15 +35,10 @@ Intended use in a lab:
 - verify how tools and defenses react to a controlled download source
 
 ### `work_sample.txt`
-A scripted input sample that demonstrates a sequence of keystrokes used to open PowerShell, fetch a file, run it, and close the window.
+A scripted input sample that demonstrates a sequence of keystrokes used to open PowerShell, fetch a file, run it, and close the window. Useful with Flipper Zero's BadUSB
 
 ### `powershell_iwr_obfuscation.txt`
-A set of obfuscated PowerShell examples showing how a URL can be assembled dynamically to evade simple string-based detection.
-
-These examples are useful for:
-- static analysis
-- deobfuscation practice
-- signature and heuristic tuning
+A set of obfuscated PowerShell examples showing how a URL can be assembled dynamically to evade simple string-based detection. Can be used in `work_sample.txt`
 
 ## Setup
 
