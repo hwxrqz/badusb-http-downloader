@@ -14,7 +14,7 @@ The main components are:
 - `simple_service.py` — a minimal HTTP server that serves a chosen file as a download.
 - `work_sample.txt` — a sample keystroke payload demonstrating a scripted download-and-launch workflow.
 - `powershell_iwr_obfuscation.txt` — examples of obfuscated `Invoke-WebRequest`-style command construction.
-- `RC4/` — a related sample from the repository used in encryption/decryption research.
+- `rc4.EXE` — a related sample from the repository used in encryption/decryption research. For more information, check the repository: https://github.com/hwxrqz/payload-crypt/tree/master
 
 ## Repository Goals
 
